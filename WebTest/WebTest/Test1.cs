@@ -20,7 +20,7 @@ namespace SeleniumTests
         [SetUp]
         public void SetupTest()
         {
-            driver = new FirefoxDriver();
+            driver = new FirefoxDriver(@"E:\Academic\IUT\Project\Testing\Selenium_Webdriver\WebTest\Executables\geckodriver.exe");
             baseURL = "https://www.google.com/";
             verificationErrors = new StringBuilder();
         }
